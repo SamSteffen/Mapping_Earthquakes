@@ -102,8 +102,6 @@ style: styleInfo,
 }
 }).addTo(earthquakes);
 
-earthquakes.addTo(map);
-
 // Create a legend control object.
 let legend = L.control({
   position: "bottomright"
@@ -121,6 +119,7 @@ legend.onAdd = function() {
   "#ea822c",
   "#ea2c2c"
   ];
+
   // Looping through our intervals to generate a label with a colored square for each interval.
   for (var i = 0; i < magnitudes.length; i++) {
   console.log(colors[i]);
@@ -129,6 +128,11 @@ legend.onAdd = function() {
   }
   
   return div;
-}
+};
 
 legend.addTo(map);
+
+  earthquakes.addTo(map);
+});
+
+
