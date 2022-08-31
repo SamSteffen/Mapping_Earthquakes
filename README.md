@@ -15,16 +15,16 @@ The tectonic plate data was retrieved from the raw json file stored here: https:
 
 We also created two different map-views using styline features from mapbox.com.
 
-![](../Challenge_deliverable1.png)
+<img width="632" alt="Challenge_deliverable1" src="https://user-images.githubusercontent.com/104729703/187599151-3c514559-49dc-4fd5-9884-1973a794a5b1.png">
 
 ### 2: Add Major Earthquake Data
 
 We then added another layer to our map that shows all major earthquake data ("Major Earthquakes"). This data was sourced from: https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/4.5_week.geojson A seperate coloring system was added to the markers for these earthquakes so that they could be easily discerned from other earthquakes by the user using the map layer selection menu.
 
-![](../Challenge_deliverable2.png)
+<img width="626" alt="Challenge_deliverable2" src="https://user-images.githubusercontent.com/104729703/187599167-40d0f482-62bc-432f-9512-76a276dea778.png">
 
 ### 3: Add an Additional Map
 
 Upon completing these layers, we added a third layer view to our map from mapbox.com that presents the data with a "dark" view.
 
-![](../Challenge_deliverable3.png)
+<img width="626" alt="Challenge_deliverable3" src="https://user-images.githubusercontent.com/104729703/187599180-0f58ae0c-02f4-4008-990c-ae1420447694.png">
